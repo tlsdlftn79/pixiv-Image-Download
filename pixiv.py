@@ -2,7 +2,7 @@
 from pixivpy3 import AppPixivAPI
 import sys
 
-REFRESH_TOKEN = 'api 번호'
+REFRESH_TOKEN = '픽시브 api 토큰 발급'
 
 def download_image(aapi, illust_id, base_path, file_name=None):
     detail = aapi.illust_detail(illust_id)
